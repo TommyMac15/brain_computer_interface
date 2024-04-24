@@ -6,11 +6,11 @@ const Article: React.FC = () => {
       display: 'flex',
       justifyContent: 'center',
       alignItems: 'flex-start', // Align items to the top
-      height: '100vh',
+      height: '100vh', 
       lineHeight: 1.5
     }}>
     <div className="font-sans max-w-2xl mx-auto bg-black-100 p-8 rounded-lg">
-    <img src="brain_logo.jpg" alt="logo" className="absolute top-0 left-0 w-32 h-18" />
+    <img src="brain_logo.jpg" alt="logo" className="absolute top-0 left-0 w-32 h-18" /> 
       <h1 className="text-center text-white font-bold text-3xl mb-4">Brain Human Interface</h1>
 
       <section className="mb-4">
@@ -36,16 +36,16 @@ const Article: React.FC = () => {
           Aside from unintentional data breaches, there is also the fact that as technology rapidly advances, oftentimes regulations are slow to keep up. 
           Regulations regarding the protection of this data is paramount. 
           There is concern about how HIPAA will apply to this technology and it is likely that laws and regulations will need to adapt to the protection of the vast amount and private nature of this data. 
-            The main issue is that direct-to-consumer products do not need to abide by HIPAA which means that as this becomes available to the general public, the limited protection that HIPAA provides will no longer protect consumer data <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6814252/" style={{ color: '#87CEEB' }}target="_blank">[1]</a>. 
-            There is no current national standard for this neural data protection, leaving individual states to write their own regulations with varying degrees of protection <a href="https://www.vox.com/future-perfect/24078512/brain-tech-privacy-rights-neurorights-colorado-yuste" style={{ color: '#87CEEB' }}target="_blank">[2]</a>.</p>
+            The main issue is that direct-to-consumer products do not need to abide by HIPAA which means that as this becomes available to the general public, the limited protection that HIPAA provides will no longer protect consumer data 1. 
+            There is no current national standard for this neural data protection, leaving individual states to write their own regulations with varying degrees of protection .</p>
           <br></br>
           <p>Our group believes that there must be a robust regulatory framework established to this emerging issue. 
             We also believe that this data is too valuable to play catch up with regulations as breaches inevitably occur. </p>
             <p>
             For this reason, our group believes that awareness needs to be raised in order to protect the most vulnerable. 
             We need to ensure that those receiving this implant are aware of the data privacy risks that this imposes. 
-            These early adopters are most at risk and should have the knowledge and agency to make informed decisions about the use of this neural interface technology<a href="https://blogs.ischool.berkeley.edu/w231/2021/07/09/brain-machine-interfaces-and-neuralink-privacy-and-ethical-concerns/" style={{ color: '#87CEEB' }}target="_blank">[3]</a>.
-            They should be aware that letting a device access their brain waves could mean they are risking “identity theft, password hacking, and blackmail” <a href="https://www.fastcompany.com/91029453/unpacking-the-ethical-issues-swirling-around-neuralink" style={{ color: '#87CEEB' }}target="_blank">[4]</a>.</p>
+            These early adopters are most at risk and should have the knowledge and agency to make informed decisions about the use of this neural interface technology3.
+            They should be aware that letting a device access their brain waves could mean they are risking “identity theft, password hacking, and blackmail” 4.</p>
             <p>It is necessary that Neuralink and other companies in this field are transparent and accountable with the handling, storage, and protection of user data.
 </p>
       </section>
